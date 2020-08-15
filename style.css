@@ -1,0 +1,70 @@
+body { 
+    background-color: #f0f0f0;
+    font-family: 'Oswald', sans-serif;
+}
+
+section { 
+    height: 300px;
+}
+
+.destaques {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.tim {
+    height: 200px;
+    float: left;
+    background-color: #ccc;
+    width: 100%;;
+}
+
+.main {
+    height: 300px;
+    background-color: white;
+    padding-left: 200px;
+}
+
+.main article {
+    float: left;
+    margin-right: 20px;
+}
+
+.to-center {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.imagem-do-tim1 {
+    background: url(./tim1.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagem-do-tim2 {
+    background: url(./tim2.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagem-do-tim3 {
+    background: url(./tim3.jpeg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 600px) 
+{
+  body {
+    background-color: #f00;
+  }
+}
